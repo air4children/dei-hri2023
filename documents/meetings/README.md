@@ -4,10 +4,12 @@
 
 ## N000 Thu 24 Mar 12:27:37 GMT 2022 
 
+### Agenda 
 Xiaoxue Du, "Explore the Use of Artificial Intelligence to Co-Design Inclusive Teaching Practices" 
 PDF https://drive.google.com/file/d/1984Y25C8E5fvOqmbyGVUwvoUEevRtKlU/view 
 VIDEO https://www.youtube.com/watch?v=rgSdVOd7AwM
 
+```
 METHODS
 Partitipants: N=5
 Intrument: teacher interview; AT classroom observation protocol
@@ -26,6 +28,8 @@ Professional development
 	* Discuss culturally relevant teaching practices 
 Reflections
 	* Reflections upon co-design and curriculum implementation process
+```
+
 
 Instruments
 The interview protocol invited teachers to share internal and
@@ -41,3 +45,10 @@ Education: An Observation Protocol for Inclusive Classrooms
 [Roundtable Session]. AERA Annual Meeting San Francisco, CA
 http://tinyurl.com/wnoon8g (Conference Canceled)
 https://repository.isls.org//handle/1/6554 
+
+
+### Minutes 
+Disucssiong about the air4children project and its vision. Also touched on the potential collaborations for protocols of surveys, and curriculum desing. 
+For future meetings, it would be great to have: 
+* Prepare a draft for the study design
+* Engage with other researchers to draft a paper.
