@@ -1,21 +1,21 @@
 # :page_facing_up: air4children HRI2023
 
 Authors: 
-
+...?
 Abstract:
-
+...?
 
 [![article](https://img.shields.io/badge/article-arXiv-orange.svg)](https://arxiv.org/abs/2203.03204) 
-[![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/hri2022/blob/pdfs/workshop-paper.pdf)
 [![slides](https://img.shields.io/badge/see-slides-blue.svg)](slides/slides-final.pdf) 
-[![GitHub Actions Status](https://github.com/air4children/hri2022/workflows/CITEX/badge.svg)](https://github.com/air4children/hri2022/actions) 
+[![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/hri2023/blob/pdfs/workshop-paper.pdf)
+[![GitHub Actions Status](https://github.com/air4children/hri2023/workflows/CITEX/badge.svg)](https://github.com/air4children/hri2023/actions) 
 **(This work is 100% Reproducible)**
 
 ## 5 minutes video
-https://youtu.be/4pd8KsbUDgA 
-[![fig](slides/youtube-screenshot.png)](https://youtu.be/4pd8KsbUDgA)
+https://youtu.be/? 
+[![fig](slides/youtube-screenshot.png)](https://youtu.be/?)
 
-## Inclusive HRI Workshop:
+## Workshop Name:
 
 
 ## Licence and Citation 
