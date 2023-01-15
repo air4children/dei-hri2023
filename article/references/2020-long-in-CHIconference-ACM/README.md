@@ -52,4 +52,21 @@ https://dl.acm.org/doi/abs/10.1145/3313831.3376727
 ## Bibtex 
 ```
 
+@inproceedings{10.1145/3313831.3376727,
+author = {Long, Duri and Magerko, Brian},
+title = {What is AI Literacy? Competencies and Design Considerations},
+year = {2020},
+isbn = {9781450367080},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3313831.3376727},
+doi = {10.1145/3313831.3376727},
+abstract = {Artificial intelligence (AI) is becoming increasingly integrated in user-facing technology, but public understanding of these technologies is often limited. There is a need for additional HCI research investigating a) what competencies users need in order to effectively interact with and critically evaluate AI and b) how to design learner-centered AI technologies that foster increased user understanding of AI. This paper takes a step towards realizing both of these goals by providing a concrete definition of AI literacy based on existing research. We synthesize a variety of interdisciplinary literature into a set of core competencies of AI literacy and suggest several design considerations to support AI developers and educators in creating learner-centered AI. These competencies and design considerations are organized in a conceptual framework thematically derived from the literature. This paper's contributions can be used to start a conversation about and guide future research on AI literacy within the HCI community.},
+booktitle = {Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems},
+pages = {1–16},
+numpages = {16},
+keywords = {AI education, machine learning, artificial intelligence, computing education, AI literacy, AI for K-12},
+location = {Honolulu, HI, USA},
+series = {CHI '20}
+}
 ```
