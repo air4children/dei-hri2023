@@ -8,9 +8,8 @@
 %%% Roadmap for dei-hri2023:
 %%% 1. Setting template and draft sections: 14-to-15-Jan-2023
 %%% 2. Distillation: 15-to-20-Jan
-%%% 3. 25min-ish google-meeeting: 19-Jan 15:00/Mex; 21:00/UK; 13:00/Vancouver; 22:00/Spain; 13:00/PST 
-%%% 4. Send second draft Friday 20th Jan
-%%% 5. Submission: 23th Jan 2023: 
+%%% 3. 25ish meeting: 19-Jan 21:00/UK; 13:00/Vancouver; 22:00/Spain; 13:00/PST 
+%%% 4. Submission: 23th Jan 2023: 
 %%%
 %%% Github project:
 %%% https://github.com/air4children/hri2023/ 
@@ -151,9 +150,7 @@ March 13-16, 2023 Stockholm, SE}
 %% allowing the author to define a "short title" to be used in page headers.
 \title{
 %How to teach bias in AI and Robotics to Mexican Children?%Sun 15 Jan 07:22:56 GMT 2023
-%Teaching bias in AI and Robotics to Mexican Children%Sun 15 Jan 08:25:41 GMT 2023
-Teaching bias in AI and Robotics to Children in a small community in Mexico
-%Fri 20 Jan 06:15:26 GMT 2023
+Teaching bias in AI and Robotics to Mexican Children%Sun 15 Jan 08:25:41 GMT 2023
 }
 
 %%
@@ -246,13 +243,12 @@ Teaching bias in AI and Robotics to Children in a small community in Mexico
 %% The abstract is a short summary of the work to be presented in the
 %% article.
 \begin{abstract}
-%% To draft bulletpoints for abstract
   A clear and well-documented \LaTeX\ document is presented as an
   article formatted for publication by ACM in a conference proceedings
   or journal publication. Based on the ``acmart'' document class, this
   article presents and explains many of the common variations, as well
   as many of the formatting elements an author may use in the
-  preparation of the documentation of their work.  
+  preparation of the documentation of their work.
 \end{abstract}
 
 %%
@@ -305,7 +301,7 @@ Teaching bias in AI and Robotics to Children in a small community in Mexico
 %% page.
 \begin{teaserfigure}
     \includegraphics[width=\textwidth]{../figures/main/outputs/drawing-v00.png} %%GITHUB
-    %\includegraphics[width=\textwidth]{fig-main.png} %%OVERLEAF
+    % \includegraphics[width=\textwidth]{fig-main.png} %%OVERLEAF
     \caption{(a) Robot prototype (b) open-source robots for ai and robotics, (c) piloting teaching materials with children.}
     %\Description{}
     \label{fig:main}
@@ -323,135 +319,118 @@ Teaching bias in AI and Robotics to Children in a small community in Mexico
 \maketitle
 
 \section{Introduction}
-Teaching Artificial Intelligence (AI) and Robotics to young learners has been made progress in the last decade \cite{abadilloperez2022_DEI_HRI2022, montenegro2021air4children}.  
-However, programming skills might be a barrier for young learners 
-where visual and auditory programs help to address such challenge \cite{long2020}.
+Teaching Artificial Intelligence (AI) and Robotics to young learners has been made progress in the last decate \cite{abadilloperez2022_DEI_HRI2022, montenegro2021air4children}. 
+However, programming skills might be a barrier for young learners to which visual and auditory programs address such challenge \cite{long2020}.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% VICTOR to review papers and add summary on the challenges on AI literacy
-%Touretzky, D., Gardner-McCune, C., Martin, F. and Seehorn, D. (2019) %Envisioning AI for K12: What should every child know about AI? The Thirty-%Third AAAI Conference on Artificial Intelligence (AAAI-19).
-%Introducing the Fundamentals of Artificial Intelligence to K-12 Classrooms %According to Educational Neuroscience Principles
-% Perhaps cite papers in the 
-%https://www.bcu.ac.uk/education-and-social-work/research/news-and-events/cspace-conference-2021/blog/ai-literacy-the-role-primary-education
-%
-%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ACM's consolidated article template, introduced in 2017, provides a
+consistent \LaTeX\ style for use across ACM publications, and
+incorporates accessibility and metadata-extraction functionality
+necessary for future Digital Library endeavors. Numerous ACM and
+SIG-specific \LaTeX\ templates have been examined, and their unique
+features incorporated into this single new template \cite{du2022}.
 
+If you are new to publishing with ACM, this document is a valuable
+guide to the process of preparing your work for publication. If you
+have published with ACM before, this document provides insight and
+instruction into more recent changes to the article template.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%Bias in AI Robotics
-Current research lines in AI and Robotics claims to be neutral where data pipelines align with principles of findability, accessibility, interoperability, and reusability (FAIR). %TOADD_REF
-Scientific and technological progress has been made in the last two decades due to great investment of countries in such areas, leading to those countries to 
-define core values of ML and AI and bridging questions no how to adapt such core values from the most to the least privileged environments
-~\cite{pratyusha2020}. 
-There is also emerging values in the field of ML/AI on societal forces on what research is done and who benefits~\cite{birhane2022}. 
-Hence, the aim of this work is to present results of a pilot study and curriculum design on teaching bias of AI and Robotics in a small community in Mexico.
-
-%% Here to add a brieft description of the sections of the paper 
-In this paper, we present results from a pilot experiment on the challenges of teaching bias in AI and Robotics of a small community of Mexican children.
-% The paper is divided into ...
-
+The ``\verb|acmart|'' document class can be used to prepare articles
+for any ACM publication --- conference or journal, and for any stage
+of publication, from review to final ``camera-ready'' copy, to the
+author's own version, with {\itshape very} few changes to the source.
 
 \section{Teaching bias in AI and Robotics to Children}
-Payne et al. have shown great progress on making pilots and beta test teaching ethical AI to young audiences~\cite{payne2020}.
-For instance, last autumn 2021, beta test was organised where 250 students participates and on summer 2021, another pilot were organised with 28 kids at  the Media Lab with a cost of \$150 for the week. The asked questions were: 
-What's is the best algorithm to make a peanutbutter sandwich, is it the algorithm that makes the tastiest sandwich? , is it the prettiest sandwich? , the quickest and easiest to make? , the easiest to clean up?
-% https://www.wgbh.org/news/science-and-technology/2019/07/31/teaching-kids-the-ethics-of-artificial-intelligence
-% https://qz.com/1700325/mit-developed-a-course-to-teach-tweens-about-the-ethics-of-ai
+Immediately following this sentence is the point at which
+Table~\ref{tab:freq} is included in the input file; compare the
+placement of the table here with the table in the printed output of
+this document.
 
+\begin{table}
+  \caption{Frequency of Special Characters}
+  \label{tab:freq}
+  \begin{tabular}{ccl}
+    \toprule
+    Non-English or Math&Frequency&Comments\\
+    \midrule
+    \O & 1 in 1,000& For Swedish names\\
+    $\pi$ & 1 in 5& Common in math\\
+    \$ & 4 in 5 & Used in business\\
+    $\Psi^2_1$ & 1 in 40,000& Unexplained usage\\
+  \bottomrule
+\end{tabular}
+\end{table}
 
+Immediately following this sentence is the point at which
+Table~\ref{tab:commands} is included in the input file; again, it is
+instructive to compare the placement of the table here with the table
+in the printed output of this document.
 
+\begin{table*}
+  \caption{Some Typical Commands}
+  \label{tab:commands}
+  \begin{tabular}{ccl}
+    \toprule
+    Command &A Number & Comments\\
+    \midrule
+    \texttt{{\char'134}author} & 100& Author \\
+    \texttt{{\char'134}table}& 300 & For tables\\
+    \texttt{{\char'134}table*}& 400& For wider tables\\
+    \bottomrule
+  \end{tabular}
+\end{table*}
 
-% Immediately following this sentence is the point at which
-% Table~\ref{tab:freq} is included in the input file; compare the
-% placement of the table here with the table in the printed output of
-% this document.
-% \begin{table}
-%   \caption{Frequency of Special Characters}
-%   \label{tab:freq}
-%   \begin{tabular}{ccl}
-%     \toprule
-%     Non-English or Math&Frequency&Comments\\
-%     \midrule
-%     \O & 1 in 1,000& For Swedish names\\
-%     $\pi$ & 1 in 5& Common in math\\
-%     \$ & 4 in 5 & Used in business\\
-%     $\Psi^2_1$ & 1 in 40,000& Unexplained usage\\
-%   \bottomrule
-% \end{tabular}
-% \end{table}
-
-% Immediately following this sentence is the point at which
-% Table~\ref{tab:commands} is included in the input file; again, it is
-% instructive to compare the placement of the table here with the table
-% in the printed output of this document.
-
-% \begin{table*}
-%   \caption{Some Typical Commands}
-%   \label{tab:commands}
-%   \begin{tabular}{ccl}
-%     \toprule
-%     Command &A Number & Comments\\
-%     \midrule
-%     \texttt{{\char'134}author} & 100& Author \\
-%     \texttt{{\char'134}table}& 300 & For tables\\
-%     \texttt{{\char'134}table*}& 400& For wider tables\\
-%     \bottomrule
-%   \end{tabular}
-% \end{table*}
-
-
+Always use midrule to separate table header rows from data rows, and
+use it only for this purpose. This enables assistive technologies to
+recognise table headers and support their users in navigating tables
+more easily.
 
 
 \section{Study design and curriculum design}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Brieft introduction to this section [MX/TB]
-Designing inclusive teaching practices for students has shown positive impact on students, where study design consider the creating procedures, instruments  and data collection and analysis~\cite{du2022}.
+A ``teaser figure'' is an image, or set of images in one figure, that
+are placed after all author and affiliation information, and before
+the body of the article, spanning the page. If you wish to have such a
+figure in your article, place the command immediately before the
 
- 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% TON~O will draft details of the lessons in four paragraphs (or one large paragraph)  
-Figure~\ref{fig:curriculum} illustrates the curriculum design for the pilot experiment. 
-In lesson 01, we could showed the children how artificial intelligence works with online applications. Also we were able to use more dynamic activities with protoboards so that the children can easily learn how robotics works and its relation with human senses.
-Lesson 02 consist of ...
-Lesson 03 consist of ...
-Lesson 04 consist of ...
+A ``teaser figure'' is an image, or set of images in one figure, that
+are placed after all author and affiliation information, and before
+the body of the article, spanning the page. If you wish to have such a
+figure in your article, place the command immediately~\ref{fig:curriculum}.
 
 \begin{figure}[h]
   \centering
-    \includegraphics[width=\linewidth]{../figures/curriculum/outputs/drawing-v01.png}  %%GITHUB
+    \includegraphics[width=\linewidth]{../figures/curriculum/outputs/drawing-v00.png}  %%GITHUB
     %\includegraphics[width=\linewidth]{fig-curriculum.png}  %%OVERLEAF
-    \caption{
-    Curriculum of four lessons of 1 hour and a half (L01, L02, L03 and L04).
-    Arrows illustrate the connection between the first and the last part of each lessons.
-    }
+    \caption{1907 Franklin Model D roadster. Photograph by Harris \&
+    Ewing, Inc. [Public domain], via Wikimedia
+    Commons. (\url{https://goo.gl/VLCRBB}).}
+    \Description{A woman and a girl in white dresses sit in an open car.}
     \label{fig:curriculum}
 \end{figure}
 
 \section{Results}
 A ``teaser figure'' is an image, or set of images in one figure, that
 are placed after all author and affiliation information, and before
-the body of the article, spanning the page. 
+the body of the article, spanning the page. If you wish to have such a
+figure in your article, place the command immediately before the
+
 A ``teaser figure'' is an image, or set of images in one figure, that
 are placed after all author and affiliation information, and before
-the body of the article, spanning the page~\ref{fig:main}.
+the body of the article, spanning the page. If you wish to have such a
+figure in your article, place the command immediately~\ref{fig:main}.
 
 \section{Conclusions and future work}
-%%%%%%%%%%%%%%%%%%%%%%%%
-%%% CONCLUSIONS
-%%% Please add any conclusions that you saw during the pilot
-We addressed the challenge of teaching bias in AI and robotics in a small community in Mexico to as a way to build AI by and for the people. 
+Table~\ref{tab:freq} is included in the input file; compare the
+placement of the table here with the table in the printed output of
+this document.
+
+Table~\ref{tab:freq} is included in the input file; compare the
+placement of the table here with the table in the printed output of
+this document.
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%
-%%%FUTURE WORK
-%%% please add your initials and paragraphs on what you might consider be a good line of research for future work.
-%% MX: How to incorporate other examples of bias in AI/Robotics in the context of the Mexican society?
+
+
 %%
-
-
-
 %% The acknowledgments section is defined using the "acks" environment
 %% (and NOT an unnumbered section). This ensures the proper
 %% identification of the section in the article metadata, and the
@@ -465,7 +444,7 @@ To ???, for the bagels and explaining CMYK and color spaces.
 %% the bibliography file.
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{../references/references} %%GITHUB
-%\bibliography{references} %%OVERLEAF
+% \bibliography{references} %%OVERLEAF
 
 %%%
 %%% If your work has an appendix, this is the place to put it.
