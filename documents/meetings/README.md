@@ -2,7 +2,18 @@
 
 
 
+## N001 Sat  5 Nov 17:59:55 GMT 2022
+Xiaoxue Du
+
+Discuss, 
+* reserach quesiton(s):
+	* How to desing equited-centred material of fudnamentals of AI and Robotics for children?
+	* How to build build prior knolwedge and interests of AIR for children in low resource countries? (2020-long-CHI)
+	* What is the future of AI and Robotics for children in low resource countries? (2020-long-CHI)
+* and mainly: **how to create a proper study design ?**
+
 ## N000 Thu 24 Mar 12:27:37 GMT 2022 
+
 
 ### Agenda 
 Xiaoxue Du, "Explore the Use of Artificial Intelligence to Co-Design Inclusive Teaching Practices" 
