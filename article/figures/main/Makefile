@@ -1,6 +1,6 @@
 ## Inkscape (svg support)
-INKSCAPE?=inkscape --export-dpi=200 --export-png  ##Ubuntu20.04x64 
-#INKSCAPE?=inkscape --export-dpi=200 --export-filename  ##Ubuntu22.04x64
+#INKSCAPE?=inkscape --export-dpi=200 --export-png  ##Ubuntu20.04x64 
+INKSCAPE?=inkscape --export-dpi=200 --export-filename  ##Ubuntu22.04x64
 
 OS_VERS:=$(shell lsb_release -a 2>/dev/null | grep Description | awk '{ print $$2 "-" $$3 }')
 # https://stackoverflow.com/questions/30088319/using-shell-in-makefile-to-find-ubuntu-version
