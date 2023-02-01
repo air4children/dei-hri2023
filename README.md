@@ -1,7 +1,8 @@
-# :page_facing_up: Teaching AI and Robotics to Children in a Mexican town
-Authors: 
+# Teaching AI and Robotics to Children in a Mexican town
+Authors:   
 ...?
-Abstract:
+
+Abstract:   
 In this paper, we present a pilot study aiming to investigate the challenges of teaching AI and Robotics to children in low-income resource countries.
 Challenges such as teaching bias in AI and inclusive learning with Montessori method were introduced, emphasising the little to none experts to teach AI and Robotics and the limited resources in a Mexican town.
 For the pilot study, we invited 14 participants of which 10 were able to attend, 6 male and 4 female of (age in years: mean=8 and std=$\pm$1.61) and four instructors of different teaching experience levels to young audiences.
