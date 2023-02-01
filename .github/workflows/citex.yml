@@ -4,6 +4,7 @@ on:
     branches:
       - no-main
       - 03-draft-paper
+      - 05-submitted-version
 jobs:
   build:
     if: "contains(github.event.head_commit.message, 'CITEX')"
