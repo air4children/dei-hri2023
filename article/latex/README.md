@@ -1,7 +1,7 @@
 # Latex paper project
 
 
-## Overleaft
+## Overleaft > https://www.overleaf.com/3395627816xdvrymdbqqft
 ```
 %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -31,7 +31,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Instrucitons for overleaf project
 %%% Overleaf might be new to you, but it is quite easy to use. 
-%%% 1. Go to the section where you want to write up in the PDF paper and double click that will point you to the text editor. 
+%%% 1. Go to the section where you want to write up in the PDF paper and 
+%%%    double click that will point you to the text editor. 
 %%% 2. Make edition as in word, and
 %%% 3. Prese Ctrl+s to save and compile your changes in the PDF document.
 %%% 4. After Ctrl+s, all should be saved and ready for others to see, to review, etc.
