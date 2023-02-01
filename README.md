@@ -1,9 +1,14 @@
-# :page_facing_up: air4children HRI2023
-
+# :page_facing_up: Teaching AI and Robotics to Children in a Mexican town
 Authors: 
 ...?
 Abstract:
-...?
+In this paper, we present a pilot study aiming to investigate the challenges of teaching AI and Robotics to children in low-income resource countries.
+Challenges such as teaching bias in AI and inclusive learning with Montessori method were introduced, emphasising the little to none experts to teach AI and Robotics and the limited resources in a Mexican town.
+For the pilot study, we invited 14 participants of which 10 were able to attend, 6 male and 4 female of (age in years: mean=8 and std=$\pm$1.61) and four instructors of different teaching experience levels to young audiences.
+We reported results of four-lesson curriculum that is both inclusive and engaging with Montessori method and low-cost open source educational robots. 
+We showed the impact on the increase of general agreement of participants on the understanding of what engineers and scientist do in their jobs, with engineering attitudes surveys from the first and the last lesson. 
+We concluded that this pilot study helped participants to understand fundamental concepts of AI and Robotics and provided better understanding to the organisers on financial and logistical challenges to organise a workshop with a major number of participants as potential future work.
+
 
 [![article](https://img.shields.io/badge/article-arXiv-orange.svg)](https://arxiv.org/abs/2203.03204) 
 [![slides](https://img.shields.io/badge/see-slides-blue.svg)](slides/slides-final.pdf) 
@@ -15,7 +20,9 @@ Abstract:
 https://youtu.be/? 
 [![fig](slides/youtube-screenshot.png)](https://youtu.be/?)
 
-## Workshop Name:
+## Workshop Name: Inclusive HRI II
+>  Equity and Diversity in Design, Application, Methods, and Community
+https://sites.google.com/view/dei-hri/home
 
 
 ## Licence and Citation 
@@ -34,9 +41,9 @@ After generating your SSH keys as suggested [here](https://docs.github.com/en/gi
 You can then clone the repository by typing (or copying) the following line in a terminal at your selected path in your machine:
 ```
 mkdir -p $HOME/repositories/air4children/ && cd $HOME/repositories/air4children/
-git clone git@github.com:air4children/hri2023.git
+git clone git@github.com:air4children/dei-hri2023.git
 ```
 
 ## Contact 
-If you have specific questions about the content of this repository, you can drop us an email to [air4children@gmail.com](mailto:air4children@gmail.com?subject="[hri2023-questions]").
-If your question might be relevant to other people, please instead [open an issue](https://github.com/air4children/hri2023/issues).
+If you have specific questions about the content of this repository, you can drop us an email to [air4children@gmail.com](mailto:air4children@gmail.com?subject="[dei-hri2023-questions]").
+If your question might be relevant to other people, please instead [open an issue](https://github.com/air4children/dei-hri2023/issues).
