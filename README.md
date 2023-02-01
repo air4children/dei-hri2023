@@ -13,8 +13,9 @@ We concluded that this pilot study helped participants to understand fundamental
 
 [![article](https://img.shields.io/badge/article-arXiv-orange.svg)](https://arxiv.org/abs/2203.03204) 
 [![slides](https://img.shields.io/badge/see-slides-blue.svg)](slides/slides-final.pdf) 
-[![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/hri2023/blob/pdfs/workshop-paper.pdf)
-[![GitHub Actions Status](https://github.com/air4children/hri2023/workflows/CITEX/badge.svg)](https://github.com/air4children/hri2023/actions) 
+[![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/dei-hri2023/blob/pdfs/paper.pdf)
+[![CITEX](https://github.com/air4children/dei-hri2023/actions/workflows/citex.yml/badge.svg)](https://github.com/air4children/dei-hri2023/actions/workflows/citex.yml)
+
 **(This work is 100% Reproducible)**
 
 ## 5 minutes video
