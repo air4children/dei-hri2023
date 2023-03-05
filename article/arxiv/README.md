@@ -71,17 +71,29 @@ vim .github/workflows/citex.yml
 
 ## Submission
 
-1. Go to arxiv and START NEW SUBMISSION with the above zip file
-	* Primary classification for submission
-	* title
-	* author list: : (First names first; do not use et al.; separate with commas or 'and'; Review author requirements)
-	* abstract.
-	* Add other cathegories:
+1. Login to [arxix](https://arxiv.org/login) and START NEW SUBMISSION with the above zip file
+	* Click
+		*  I certify that the above information is correct.   
+		*  I have read and agree to the Instructions for Submission   
+		*  By submitting to arXiv I have read and accept the Submission Terms and Agreement  
+		*  I am submitting as an author of this article  
+		*   CC BY-SA: Creative Commons Attribution-ShareAlike  
+		* Archive and Subject Class:
+	* Add files: Add zip `arxiv-v.zip` 
+	* Processing Status: Succeeded! > Continue
+	* METADATA:
+		* title: 
+		* author list: : ( Firstname Lastname (where Lastname is your family name).; do not use et al.; separate with commas or 'and'; Review author requirements)
+		* abstract.
+	* Add other cathegories (for instance):
 		Medical Physics (physics.med-ph)   
 		Artificial Intelligence (cs.AI)    Remove
 		Hardware Architecture (cs.AR)    Remove
 		Machine Learning (cs.LG)    Remove
 		Image and Video Processing (eess.IV) 
+	* You must preview your article before submitting.   
+	*  Refresh this page after previewing your PDF.  
+	* Submit: Processing your submission may take several minutes.  
 
 More for metadata: https://arxiv.org/help/prep#title
 
