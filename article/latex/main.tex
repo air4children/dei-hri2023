@@ -95,7 +95,8 @@
 %\documentclass[manuscript,screen,review]{acmart}
 %\documentclass[sigconf,authordraft]{acmart}
 %\documentclass[sigconf,review]{acmart}
-\documentclass[sigconf,anonymous,review]{acmart}
+% \documentclass[sigconf,anonymous,review]{acmart}
+\documentclass[sigconf]{acmart}
 %\documentclass[sigconf,review]{acmart}
 %\documentclass[sigchi-a,anonymous,review]{acmart}
 %\documentclass[acmconf,anonymous,review]{acmart}
@@ -193,77 +194,60 @@ Teaching AI and Robotics to Children in a Mexican town
 %% Of note is the shared affiliation of the first two authors, and the
 %% "authornote" and "authornotemark" commands
 %% used to denote shared contribution to the research.
-\author{Ben Trovato}
-\authornote{Both authors contributed equally to this research.}
-\email{trovato@corporation.com}
-\orcid{1234-5678-9012}
-\author{G.K.M. Tobin}
-\authornotemark[1]
-\email{webmaster@marysville-ohio.com}
+\author{Antonio Badillo-Perez}
 \affiliation{%
-  \institution{Institute for Clarity in Documentation}
-  \streetaddress{P.O. Box 1212}
-  \city{Dublin}
-  \state{Ohio}
-  \country{USA}
-  \postcode{43017-6221}
-}
+  \institution{air4children}
+  \city{Xicohtzinco, Tlaxcala}
+  \country{M\'exico}}
 
-\author{Lars Th{\o}rv{\"a}ld}
+\author{Donato Badillo-Perez}
 \affiliation{%
-  \institution{The Th{\o}rv{\"a}ld Group}
-  \streetaddress{1 Th{\o}rv{\"a}ld Circle}
-  \city{Hekla}
-  \country{Iceland}}
-\email{larst@affiliation.org}
+  \institution{air4children}
+  \city{Xicohtzinco, Tlaxcala}
+  \country{M\'exico}}
+  
+% \author{Antonio Badillo-Perez}
+% \authornote{Both authors contributed equally to this research.}
+% \email{trovato@corporation.com}
+% \orcid{1234-5678-9012}
+% \author{G.K.M. Tobin}
+% \authornotemark[1]
+% \email{webmaster@marysville-ohio.com}
+% \affiliation{%
+%   \institution{Institute for Clarity in Documentation}
+%   \streetaddress{P.O. Box 1212}
+%   \city{Dublin}
+%   \state{Ohio}
+%   \country{USA}
+%   \postcode{43017-6221}
+% }
 
-\author{Valerie B\'eranger}
-\affiliation{%
-  \institution{Inria Paris-Rocquencourt}
-  \city{Rocquencourt}
-  \country{France}
-}
 
-\author{Aparna Patel}
+\author{Alex Barco}
 \affiliation{%
- \institution{Rajiv Gandhi University}
- \streetaddress{Rono-Hills}
- \city{Doimukh}
- \state{Arunachal Pradesh}
- \country{India}}
+  \institution{University of Deusto} %Engineering Faculty, 
+  % \streetaddress{1 Th{\o}rv{\"a}ld Circle}
+  \city{Bilbao Biscay}
+  \country{Spain}}
+% \email{jsmith@affiliation.org}
 
-\author{Huifen Chan}
+\author{Rocio Montenegro}
 \affiliation{%
-  \institution{Tsinghua University}
-  \streetaddress{30 Shuangqing Rd}
-  \city{Haidian Qu}
-  \state{Beijing Shi}
-  \country{China}}
+  \institution{Family Montessori School Society}
+  % \streetaddress{8600 Datapoint Drive}
+  \city{Vancouver, British Columbia} 
+  % \state{Texas}
+  \country{Canada}
+  % \postcode{78229}
+  }
+% \email{cpalmer@prl.com}
 
-\author{Charles Palmer}
+\author{Miguel Xochicale}
 \affiliation{%
-  \institution{Palmer Research Laboratories}
-  \streetaddress{8600 Datapoint Drive}
-  \city{San Antonio}
-  \state{Texas}
-  \country{USA}
-  \postcode{78229}}
-\email{cpalmer@prl.com}
-
-\author{John Smith}
-\affiliation{%
-  \institution{The Th{\o}rv{\"a}ld Group}
-  \streetaddress{1 Th{\o}rv{\"a}ld Circle}
-  \city{Hekla}
-  \country{Iceland}}
-\email{jsmith@affiliation.org}
-
-\author{Julius P. Kumquat}
-\affiliation{%
-  \institution{The Kumquat Consortium}
-  \city{New York}
-  \country{USA}}
-\email{jpkumquat@consortium.net}
+  \institution{air4children}
+  \city{Xicohtzinco, Tlaxcala}
+  \country{M\'exico}}
+\email{air4children@gmail.com}
 
 %%
 %% By default, the full list of authors will be used in the page
@@ -271,20 +255,26 @@ Teaching AI and Robotics to Children in a Mexican town
 %% other information printed in the page headers. This command allows
 %% the author to define a more concise list
 %% of authors' names for this purpose.
-\renewcommand{\shortauthors}{Trovato and Tobin, et al.}
+\renewcommand{\shortauthors}{Xochicale M. et al.}
 
 %%
 %% The abstract is a short summary of the work to be presented in the
 %% article.
 \begin{abstract}
-In this paper, we present a pilot study aiming to investigate the challenges of teaching AI and Robotics to children in low-income resource countries.
-Challenges such as teaching bias in AI and inclusive learning with Montessori method were introduced, emphasising the little to none experts to teach AI and Robotics and the limited resources in a Mexican town.
+In this paper, we present a pilot study aiming to investigate the challenges of teaching AI and Robotics to children in  low- and middle-income countries.
+Challenges such as the little to none experts and the limited resources in a Mexican town to teach AI and Robotics were addressed with
+the creation of inclusive learning activities with Montessori method and open-source educational robots.
+ % teaching bias in AI and
 For the pilot study, we invited 14 participants of which 10 were able to attend, 6 male and 4 female of (age in years: mean=8 and std=$\pm$1.61) and four instructors of different teaching experience levels to young audiences.
-We reported results of four-lesson curriculum that is both inclusive and engaging with Montessori method and low-cost open source educational robots. 
-We showed the impact on the increase of general agreement of participants on the understanding of what engineers and scientist do in their jobs, with engineering attitudes surveys from the first and the last lesson. 
-We concluded that this pilot study helped participants to understand fundamental concepts of AI and Robotics and provided better understanding to the organisers on financial and logistical challenges to organise a workshop with a major number of participants as potential future work.
+We reported results of a four-lesson curriculum that is both inclusive and engaging. 
+% with Montessori method and low-cost open source educational robots. 
+We showed the impact on the increase of general agreement of participants on the understanding of what engineers and scientists do in their jobs, with engineering attitudes surveys and Likert scale charts from the first and the last lesson.
+We concluded that this pilot study helped children coming from low- to mid-income families to learn fundamental concepts of AI and Robotics and aware them of the potential of AI and Robotics applications which might rule their adult lives.
+Future work might lead (a) to have better understanding on the financial and logistical challenges to organise a workshop with a major number of participants for reliable and representative data and (b) to improve pretest-posttest survey design and its statistical analysis.
+The resources to reproduce this work are available at \url{https://github.com/air4children/dei-hri2023}.
 \end{abstract}
 %of teaching AI and Robotics in a community where little to none experts were able to taught such subjects, and the challenges of creating a curriculum 
+
 
 %%
 %% The code below is generated by the tool at http://dl.acm.org/ccs.cfm.
@@ -336,15 +326,13 @@ We concluded that this pilot study helped participants to understand fundamental
 %% page.
 \begin{teaserfigure}
     \includegraphics[width=\textwidth]{../figures/main/outputs/drawing-v03.png} %%GITHUB
-    % \includegraphics[width=\textwidth]{fig-main.png} %%OVERLEAF
+    %\includegraphics[width=\textwidth]{fig-main.png} %%OVERLEAF
     \caption{
-    (a) Instructor demonstrating coding activities with open-source educational robot,
-    (b) instructor showing AI and Robotic-based cards for the bingo game,
-    (c) instructors presenting difference concepts of AI and Robotics to children,
+    (a) Instructor demonstrating coding activities to children with open-source educational robot,
+    (b) instructor playing  bingo game with AI and Robotic-based cards,
+    (c) instructors presenting AI and Robotics fundamentals to children,
     (d) children interacting in group activities, and 
-    (e) showcase activity where instructor helped the group of four children to present projects. 
-    % (c) Bingo game with key terms like neuron, robot, eye, etc., and 
-    % (d) piloting teaching materials with children.
+    (e) showcase activity where instructor(s) helped a group of four children to present their projects. 
     }
     %\Description{}
     \label{fig:main}
@@ -365,10 +353,10 @@ We concluded that this pilot study helped participants to understand fundamental
 Teaching Artificial Intelligence (AI) and Robotics to young learners has been made good progress in the last decade~\cite{bers2019, druga2019}.
 Educational progress has been possible due to the great investment in AI and Robotics in countries such as U.S.A, Germany, Denmark, and Sweden, making those countries and their communities to define core values in AI and Robotics~\cite{druga2019}. 
 These raise the question on how to adapt such core values from the most to the least privileged environments~\cite{pratyusha2020}. 
-Recently, it has been few progress on using open-source  educational robots and the creation of child-centred programs to teach AI and Robotics in low-income countries~\cite{abadilloperez2022_DEI_HRI2022, montenegro2021air4children}.
+Recently, it has been few progress on using open-source  educational robots and the creation of child-centred programs to teach AI and Robotics in low- and middle-income countries~\cite{abadilloperez2022_DEI_HRI2022, montenegro2021air4children}.
 However, there are various challenges on teaching AI and Robotics to young learners.
 For instance, the barrier of teaching programming skills to those who are still learning writing and reading skills to which visual and auditory programs using sensor, action and logic blocks helped to address such challenges~\cite{long2020, wyeth2008}.
-Other challenge is the little to none experts to teach AI and Robotics and its limited educational material in low-income countries~\cite{yang2022, abadilloperez2022_DEI_HRI2022}.
+Other challenge is the little to none experts to teach AI and Robotics and its limited educational material in low- and middle-income countries~\cite{yang2022, abadilloperez2022_DEI_HRI2022}.
 % Even though open-source educational robots seems to be affordable, there seems to be
 % Current research lines in AI and Robotics claims to be neutral where data pipelines align with principles of findability, accessibility, interoperability, and reusability (FAIR). %TOADD_REF
 Hence, the aim of this work is to investigate further challenges of teaching AI and Robotics to young audiences in a Mexican town where little no experts can teach such subjects with limited resources.
@@ -452,6 +440,16 @@ However, there are other skills that are also required to create inclusive learn
 Also, there is evidence on the impact of collaboration and engagement activities on how coding games and robots to enhance computational thinking \cite{sharma2019}.
 Hence, the challenge is how to adapt Montessori method to not only create conditions to develop physical and social requirements but collaborative and literacy skills through hands-on activities. 
 
+\begin{figure}[t]
+  \centering
+    \includegraphics[width=\linewidth]{../figures/curriculum/outputs/drawing-v02.png}  %%GITHUB
+    %\includegraphics[width=\linewidth]{fig-curriculum.png}  %%OVERLEAF
+    \caption{
+    Curriculum design with four lessons of 1 hour and a half (L01, L02, L03 and L04).
+    The arrows illustrate the connection between the the last and the first part of each lesson as way to summarise the progress of each lesson (blue arrows) and connections with their full curriculum (red arrows).
+    }
+    \label{fig:curriculum}
+\end{figure}
 \section{Pilot study: study design and curriculum design}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Brieft introduction to this section [MX/TB]
@@ -473,16 +471,53 @@ In the third lesson, we adopted a bingo game with key terms from the previous le
 introduced what is algorithm with an activity of cooking quesadillas where students learnt that everyone can have a different answer given the same instruction.
 We also organised activities on action/reaction with different sensors, how sensors work, how to program sensors and examples with the protoboards and circuits.
 During the fourth lesson, we closed the course, starting with an activity in the garden where students program their teammates and practice to give instructions to a robot in order to get the wanted result. Then we show them some real life applications of AI and robotics and we grouped participants in three teams so they could program their robots and design their logo (Figure~\ref{fig:main}e). 
-\begin{figure}[t]
-  \centering
-    \includegraphics[width=\linewidth]{../figures/curriculum/outputs/drawing-v01.png}  %%GITHUB
-    % \includegraphics[width=\linewidth]{fig-curriculum.png}  %%OVERLEAF
-    \caption{
-    Curriculum design with four lessons of 1 hour and a half (L01, L02, L03 and L04).
-    The arrows illustrate the connection between the first and the last part of each lessons as way to summarise the progress of each lesson and the full curriculum.
-    }
-    \label{fig:curriculum}
-\end{figure}
+
+\subsection{Surveys}
+Considering "Engineering Attitudes Survey" \cite{cunningham2010impact}, we surveyed all participants with same survey, one for the first lesson and one for the last day of the lessons. 
+Considering the reduction of time, fatigue and financial compensation, we consider a three-scale Likert chart \cite{jebb2021}, where each statement in our survey has three numbers where 1 is totally disagree; 2: not sure, and 3 totally agree .
+See original statements in Table~\ref{tab:questions} and Spanish translation of the statements in Fig~\ref{fig:survey}.
+To analysis the results of the survey we consider the percentages of the responses of each statement from the first and the last lesson and illustrate the results using percentage response of Likert scale charts.
+Considering the small sample of participants and the no assumptions to data distributions, we choose the nonparametric Wilcoxon signed-rank test for statistical analysis for answers of pretest and posttest survey \cite{scipy2001}.
+
+% https://www.statstutor.ac.uk/resources/uploaded/mannwhitney.pdf
+% The Mann-Whitney U test is a non-parametric test that can be used in place of an
+% unpaired t-test. It is used to test the null hypothesis that two samples come from the
+% same population (i.e. have the same median) or, alternatively, whether observations in one
+% sample tend to be larger than observations in the other. Although it is a non-parametric
+% test it does assume that the two distributions are similar in shape.
+% Although it is a non-parametric test it does assume that the two distributions are similar in shape.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% TON~O and DONATO will draft statistical analysis of the surveys. added Sat 25 Feb 22:00:33 GMT 2023
+% Have a look to this google search for few ideas:
+% *  https://www.google.com/search?q=likert+statisc+python&tbm=isch&ved=2ahUKEwiO0KvLz7H9AhURtUwKHZfxDeoQ2-cCegQIABAA&oq=likert+statisc+python&gs_lcp=CgNpbWcQA1DiJFiKMmDfM2gAcAB4AIABUYgBnQSSAQE5mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=SH76Y46ME5HqsgKX47fQDg&bih=904&biw=1500#imgrc=FDvAEwilQ4OeDM
+% * https://www.google.com/search?q=how+to+evaluate+actitudes+statistics+in+surveys+dislake+1+to+5&tbm=isch&ved=2ahUKEwj006q8zrH9AhXSlicCHeBwDdYQ2-cCegQIABAA&oq=how+to+evaluate+actitudes+statistics+in+surveys+dislake+1+to+5&gs_lcp=CgNpbWcQA1DgA1jNEWCZHGgAcAB4AIABQogB_wSSAQIxMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=HH36Y_TVGNKtnsEP4OG1sA0&bih=904&biw=1500
+
+% %%Many thanks TON~O and DONATO, the following is defintely relevant to our work 
+% %%We will defintely used it for our large study!
+% %%I have added few of your comments to future work 
+% A proposal for the statistical analysis of the surveys is as follows.
+% \begin{enumerate}
+%     \item Select our sample, that is, the people who will answer our surveys. 
+%     %(OUR SAMPLE WILL BE ALL THE CHILDREN INVITED TO THE ARTIFICIAL INTELLIGENCE COURSE) 
+%     In order to make a representative sample that shows the majority of our student's opinions, it is necessary to define three important points:
+%     \begin{itemize}
+%         \item Size of our population. 
+%         %14 children
+%         \item Margin of error (percentage that defines how much the results are close to the opinion of the whole group we are studying).
+%         %14.28\% obtenida del numero de estudiantes que teníamos y cuántos lograron hacer los cuestionarios
+%         \item Our confidence level (the percentage you think you will be right about which answer our population will select).
+%          %90\% that most of the children's answers will change after the class. 
+%     \end{itemize}
+%     \item Calculate the surveys needed to obtain representative responses from the students with Eq.~\ref{eq:survey}.
+%     \begin{equation}
+%     \label{eq:survey}
+%        n = \frac{N}{[0.05^2 x (N-1)+1]}
+%     \end{equation}
+%     where, $n=$ number of samples, $N=$ population size and $x=$ number of surveys needed.
+%     \item Verify how many surveys were fully completed.
+%     \item Given the number of surveys needed and the actual surveys completely made, conclude if the data is reliable and representative.
+% \end{enumerate}
 
 \section{Results}
 % \subsection{Pilot study}
@@ -490,29 +525,33 @@ Four lessons of the designed curriculum were organised on Mondays and Wednesdays
 Instructors helped children in the pilot workshop by creating groups of three to four children.
 In the final lesson groups presented their project with their own robot and children with the help of the instructor explained the application of the robot (Figure~\ref{fig:main}).
 
-Following "Engineering Attitudes Survey" by \cite{cunningham2010impact}, we surveyed all participants with two surveys for the first and the last day of the lessons. 
-However, we only considered 9 participants as the remained 5 were either not in one of the days of the surveys or there were not able to be present. 
-Figure~\ref{fig:results} illustrates the average values of 20 questions from 9 participants where 1 is totally disagree; 2: not sure, and 3 totally agree.
-It can be noted that "S17: Scientist help make people’s lives better." resulted in the highest average value whereas "S16: Engineers cause problems in the world." is the lowest average value.
-"S19: I think I know what scientists do for their jobs." and "S20: I think I know what engineers do for their jobs." showed an increase on agreement between participants. 
- 
+We only considered 9 participants for the survey as 5 participants were neither in one of the days of the surveys or there were not able to be in person in such days. 
+Figure~\ref{fig:results} illustrates percentages or responses of 20 statements from 9 participants for 1 which is totally disagree; 2: not sure, and 3 totally agree.
+It can be noted that "S3: I would like a job where I could invent things.", "S11: I would like a job that lets me figure it out how things work"
+and ", and "S18: Engineers help make people’s lives better." showed an increase of agreement. 
+Whereas "S6: I would like to build and test machines that could help people to walk." and  "S8: I would enjoy a job helping to protect the environment." created less disagreement.
+"S17: Scientist help make people’s lives better." resulted in the highest average value whereas "S16: Engineers cause problems in the world." is the lowest average value.
+"S19: I think I know what scientists do for their jobs." and "S20: I think I know what engineers do for their jobs." showed both an increase on agreement between participants and decrease in disagreement.
 
-% S3: I would like a job where I could invent things.
-% S6: I would like to build and test machines that could help people to walk.
+A Wilcoxon T test was used to analyze the results of the survey before and after the survey to see if the engineering attitudes had a significant effect on pre and post survey of the workshop.
+The average survey before the test was lower ($\mu$ = 2.194500 $\pm \sigma$ 0.558367 ) compared to the posttest results ($\mu$ = 2.239500 $\pm \sigma$= 0.396796).
+There was no statistically significant in the increase of attitudes towards engineering (t=53.5, p= 0.45).
+See Appendix section for reproducible Jupyter notebooks of statistical analysis and plots.
+
 % S11: I would like a job that lets me figure it out how things work. 
 % S13: I like knowing how things work. 
 % Wheres 
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \centering
-    \includegraphics[width=\linewidth]{../figures/results/outputs/drawing-v01.png}  %%GITHUB
-    % \includegraphics[width=\linewidth]{fig-results.png}  %%OVERLEAF
+    \includegraphics[width=\linewidth]{../figures/results/outputs/drawing-v03.png}  %%GITHUB
+    %\includegraphics[width=\linewidth]{fig-results.png}  %%OVERLEAF
     \caption{
-    Results of the survey with 20 statements (s1, to s20) of 9 participants of the workshop, showing average values where L01 are for the first lesson and L04 are for the fourth lesson.    
+    Percentages of responses of 9 participants from the survey with 20 statements (S1 to S20) of the first lesson (L01) and the fourth lesson (L04).
     %"S17: Scientist help make people’s lives better." resulted in the highest average value whereas 
     %"S16: Engineers cause problems in the world." is the lowest average value.
-    "S19: I think I know what scientists do for their jobs." and "S20: I think I know what engineers do for their jobs." shows an increase on agreement. 
-    Please see appendix A for further references on the statements of the survey.
+    % "S19: I think I know what scientists do for their jobs." and "S20: I think I know what engineers do for their jobs." shows an increase on agreement. 
+    See Appendices for further references on the statements of the survey.
     }
     \label{fig:results}
 \end{figure}
@@ -524,26 +563,41 @@ It can be noted that "S17: Scientist help make people’s lives better." resulte
 %%% CONCLUSIONS
 %%% Please add any conclusions that you saw during the pilot
 In this paper, we investigated the challenges of teaching AI and Robotics to young audiences with a pilot study in a Mexican town.
-We designed ten lessons but only were able to pilot four lessons due the limited human and material resources. 
-We also surveyed participants using Engineering Attitudes Survey from \cite{cunningham2010impact}, and showed the impact on the increase of general agreement of understanding what engineers and scientist do in their jobs.
-However we noted that children were not able to read long sentences and were confused about agreement and disagreement terminology. 
-We can concluded that children and parents had the willingness to join this pilot study by learning new experiences on collaborative and fun activities with low-cost educational robots. 
-However, our limited self-funded budget for this project restricted us to prepare and organised a major number of lessons and reach more participants which hopefully will be addressed in future work.
+We designed ten lessons but only were able to pilot four lessons due the limited material and human resources. 
+We also surveyed participants using Engineering Attitudes Survey from \cite{cunningham2010impact}, and showed the impact on the increase of general agreement of understanding what engineers and scientist do in their jobs using Likert scale charts.
+However, statistical analysis suggested no statistically significant in the increase of attitudes towards
+engineering  which we think is related to our small sample. 
+Also, during the survey we noted that children were not able to read long sentences and were confused about agreement and disagreement terminology in the Likert scale.
+
+We conclude that children and parents had the willingness to join this pilot study by learning new experiences on collaborative and fun activities
+based on Montessori education and with low-cost educational robots. 
+We also conclude that to be inclusive we would like to include anyone from a potential generation that might be ruled by AI. 
+Hence, thanks to these activities we allowed these children coming from low- to mid-income families to learn and be aware of the potential of AI which is crucial in this technological world.
+
+However, the limited and self-funded budget for this project restricted us to prepare and organise a major number of lessons and reach more participants which hopefully will be addressed in future work. 
+We will also improve our pretest-posttest survey design with a reliable and representative data and its statistical analysis.
+
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%%FUTURE WORK
 %%% please add your initials and paragraphs on what you might consider be a good line of research for future work.
 %% MX: How to incorporate other examples of bias in AI/Robotics in the context of the Mexican society?
-%%
-
-
-
 
 %% The acknowledgments section is defined using the "acks" environment
 %% (and NOT an unnumbered section). This ensures the proper
 %% identification of the section in the article metadata, and the
 %% consistent spelling of the heading.
 \begin{acks}
-To everyone involved in this collaborative work.
+% To everyone involved in this collaborative work.
+To Andrea Aguilar-Galindo, Gustavo Barbosa, Donato Badillo-Perez and Antonio Badillo-Perez for volunteering as instructors in the workshops.
+To Martha P\'erez and Donato Badillo for their support in organising the pilot of the workshops in their teaching installations. 
+To Rocio Montenegro for her contributions with the design of activities based on Montessori education.
+To Alex Barco for his feedback to improve the scientific impact of our collaborative work.
+To Mercedes P\'erez Mendonza for her feedback on interactive activities.
+To Victor Alonso for his feedback on teaching AI to children. 
+To Leticia V\'azquez for her support with the translation of surveys and feedback to improve the workshops.
+To El\'ias M\'endez Zapata and Abdel Rodriguez Cuapio from Tlaxcala Polytechnic University for their support with the invitation of students and feedback on the hardware design of the robot.
+To Xiaoxue Du from MIT Media Labs for her suggestions on the study design. 
+To Angel Mandujano, Elva Corona and others who have supported AIR4children project to keep it moving forward. 
 \end{acks}
 
 %%
@@ -551,12 +605,13 @@ To everyone involved in this collaborative work.
 %% the bibliography file.
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{../references/references} %%GITHUB
-% \bibliography{references} %%OVERLEAF
+%\bibliography{references} %%OVERLEAF
 
 %%%
 %%% If your work has an appendix, this is the place to put it.
 
 \newpage
+
 \section*{Appendices}
 \appendix
 
@@ -565,10 +620,10 @@ Figure~\ref{fig:survey} shows survey layout document and table~\ref{tab:question
 \begin{figure} %[h]
   \centering
     \includegraphics[width=\linewidth]{../figures/surveys/outputs/drawing-v00.png}  %%GITHUB
-    % \includegraphics[width=\linewidth]{fig-surveys.png}  %%OVERLEAF
+    %\includegraphics[width=\linewidth]{fig-surveys.png}  %%OVERLEAF
     \caption{
     Survey in Spanish with 20 statements.
-	Translation English to Spanish statements from the "Engineering Attitudes Survey" \cite{cunningham2010impact}.
+	Statements were translated from English to Spanish from the "Engineering Attitudes Survey" \cite{cunningham2010impact}.
     }
     \label{fig:survey}
 \end{figure}
@@ -606,6 +661,17 @@ Figure~\ref{fig:survey} shows survey layout document and table~\ref{tab:question
 \end{table*}
 
 
+\section*{Jupyter notebooks}
+Figure~\ref{fig:notebooks} shows Jupyter notebooks which are available at \\ \url{https://github.com/air4children/dei-hri2023/}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=\linewidth]{../figures/jupyter-notebooks/outputs/drawing-v00.png}  %%GITHUB
+    %\includegraphics[width=\linewidth]{fig-jupyter-notebooks.png}  %%OVERLEAF
+    \caption{
+    Jupyter notebooks are available at \url{https://github.com/air4children/dei-hri2023/}
+    }
+    \label{fig:notebooks}
+\end{figure}
 
 %\subsection{Part One}
 %
@@ -623,4 +689,3 @@ Figure~\ref{fig:survey} shows survey layout document and table~\ref{tab:question
 \end{document}
 \endinput
 %%
-%% End of file `sample-authordraft.tex'.
