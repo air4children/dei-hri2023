@@ -9,14 +9,13 @@ In this paper, we present a pilot study aiming to investigate the challenges of 
 [![slides](https://img.shields.io/badge/see-slides-blue.svg)](slides/slides-final.pdf) 
 [![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/dei-hri2023/blob/pdfs/paper.pdf)
 [![CITEX](https://github.com/air4children/dei-hri2023/actions/workflows/citex.yml/badge.svg)](https://github.com/air4children/dei-hri2023/actions/workflows/citex.yml)
-
 **(This work is 100% Reproducible)**
 
-## 5 minutes video
+## [TODO] 7-8 minutes video
 https://youtu.be/? 
 [![fig](slides/youtube-screenshot.png)](https://youtu.be/?)
 
-## Workshop Name: Inclusive HRI II
+## Inclusive HRI II (13th of March 2023, Stockholm, Sweden)
 >  Equity and Diversity in Design, Application, Methods, and Community
 https://sites.google.com/view/dei-hri/home
 
