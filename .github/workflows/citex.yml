@@ -2,7 +2,7 @@ name: CITEX
 on:
   push:
     branches:
-      - no-main
+      - main
       - 03-draft-paper
       - 05-submitted-version
       - 08-camera-ready
