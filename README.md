@@ -16,7 +16,7 @@ https://youtu.be/?
 [![fig](slides/youtube-screenshot.png)](https://youtu.be/?)
 
 ## Inclusive HRI II (13th of March 2023, Stockholm, Sweden)
->  Equity and Diversity in Design, Application, Methods, and Community
+Equity and Diversity in Design, Application, Methods, and Community
 https://sites.google.com/view/dei-hri/home
 
 
@@ -25,6 +25,8 @@ This work is under Creative Commons Attribution-Share Alike license [![License: 
 Hence, you are free to reuse it and modify it as much as you want and as long as you cite [this work](https://github.com/air4children/hri2023) as original reference and you re-share your work under the same terms.
 
 ### Cite as
+> Badillo-Perez, Antonio, Donato Badillo-Perez, Alex Barco, Rocio Montenegro, and Miguel Xochicale. "Teaching AI and Robotics to Children in a Mexican town." arXiv preprint arXiv:2303.03956 (2023). https://github.com/air4children/dei-hri2023
+
 
 ### BibTeX to cite
 ```
