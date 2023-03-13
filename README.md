@@ -11,9 +11,8 @@ In this paper, we present a pilot study aiming to investigate the challenges of 
 [![CITEX](https://github.com/air4children/dei-hri2023/actions/workflows/citex.yml/badge.svg)](https://github.com/air4children/dei-hri2023/actions/workflows/citex.yml)
 **(This work is 100% Reproducible with [free-cortex-framework](https://github.com/free-cortex/framework/tree/main/workflow))**
 
-## [TODO] 7-8 minutes video
-https://youtu.be/? 
-[![fig](slides/youtube-screenshot.png)](https://youtu.be/?)
+## 7-8 minutes video
+![fig](slides/gif-slides/slides.gif)
 
 ## Inclusive HRI II (13th of March 2023, Stockholm, Sweden)
 Equity and Diversity in Design, Application, Methods, and Community
