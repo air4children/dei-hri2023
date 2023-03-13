@@ -1,5 +1,8 @@
 # Slides
 
+[TODO] https://youtu.be/? 
+[![fig](slides/youtube-screenshot.png)](https://youtu.be/?)
+
 ## Building tex with ci:
 Commit changes
 ```
