@@ -14,7 +14,7 @@ In this paper, we present a pilot study aiming to investigate the challenges of 
 **(LaTeX docs are 100% Reproducible with [free-cortex-framework](https://github.com/free-cortex/framework/tree/main/workflow))**
 
 ## Slides
-![fig](slides/gif-slides/slides.gif)
+![fig](slides/slides-english/gif-slides/slides.gif)
 
 ## Inclusive HRI II (13th of March 2023, Stockholm, Sweden)
 Equity and Diversity in Design, Application, Methods, and Community
