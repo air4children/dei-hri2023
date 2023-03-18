@@ -6,10 +6,11 @@ Abstract:
 In this paper, we present a pilot study aiming to investigate the challenges of teaching AI and Robotics to children in  low- and middle-income countries. Challenges such as the little to none experts and the limited resources in a Mexican town to teach AI and Robotics were addressed with the creation of inclusive learning activities with Montessori method and open-source educational robots. For the pilot study, we invited 14 participants of which 10 were able to attend, 6 male and 4 female of (age in years: mean=8 and std=$\pm$1.61) and four instructors of different teaching experience levels to young audiences. We reported results of a four-lesson curriculum that is both inclusive and engaging. We showed the impact on the increase of general agreement of participants on the understanding of what engineers and scientists do in their jobs, with engineering attitudes surveys and Likert scale charts from the first and the last lesson. We concluded that this pilot study helped children coming from low- to mid-income families to learn fundamental concepts of AI and Robotics and aware them of the potential of AI and Robotics applications which might rule their adult lives. Future work might lead (a) to have better understanding on the financial and logistical challenges to organise a workshop with a major number of participants for reliable and representative data and (b) to improve pretest-posttest survey design and its statistical analysis. The resources to reproduce this work are available at \url{https://github.com/air4children/dei-hri2023}.
 
 [![article](https://img.shields.io/badge/article-arXiv-orange.svg)](https://arxiv.org/abs/2303.03956) 
-[![slides](https://img.shields.io/badge/see-slides-blue.svg)](https://github.com/air4children/dei-hri2023/blob/pdfs/slides.pdf) 
 [![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/dei-hri2023/blob/pdfs/paper.pdf)
+[![slides](https://img.shields.io/badge/see-slides-blue.svg)](https://github.com/air4children/dei-hri2023/blob/pdfs/slides.pdf) 
+[![slides](https://img.shields.io/badge/slides-espanol-green.svg)](https://github.com/air4children/dei-hri2023/blob/pdfs/slides-espanol.pdf) 
 [![CITEX](https://github.com/air4children/dei-hri2023/actions/workflows/citex.yml/badge.svg)](https://github.com/air4children/dei-hri2023/actions/workflows/citex.yml)
-**(This work is 100% Reproducible with [free-cortex-framework](https://github.com/free-cortex/framework/tree/main/workflow))**
+**(LaTeX docs are 100% Reproducible with [free-cortex-framework](https://github.com/free-cortex/framework/tree/main/workflow))**
 
 ## Slides
 ![fig](slides/gif-slides/slides.gif)
