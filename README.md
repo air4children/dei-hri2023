@@ -8,8 +8,9 @@ In this paper, we present a pilot study aiming to investigate the challenges of 
 [![article](https://img.shields.io/badge/article-arXiv-orange.svg)](https://arxiv.org/abs/2303.03956) 
 [![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/dei-hri2023/blob/pdfs/paper.pdf)
 [![slides](https://img.shields.io/badge/see-slides-blue.svg)](https://github.com/air4children/dei-hri2023/blob/pdfs/slides.pdf) 
-[![slides](https://img.shields.io/badge/slides-espanol-green.svg)](https://github.com/air4children/dei-hri2023/blob/pdfs/slides-espanol.pdf) 
-[![CITEX](https://github.com/air4children/dei-hri2023/actions/workflows/citex.yml/badge.svg)](https://github.com/air4children/dei-hri2023/actions/workflows/citex.yml)
+[![slides](https://img.shields.io/badge/presentación-español-green.svg)](https://github.com/air4children/dei-hri2023/blob/pdfs/slides-espanol.pdf) 
+[![CITEX](https://github.com/air4children/dei-hri2023/actions/workflows/citex.yml/badge.svg)](https://github.com/air4children/dei-hri2023/actions/workflows/citex.yml)    
+
 **(LaTeX docs are 100% Reproducible with [free-cortex-framework](https://github.com/free-cortex/framework/tree/main/workflow))**
 
 ## Slides
